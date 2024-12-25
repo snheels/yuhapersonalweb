@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "personal web",
+			"path": "."
+		},
+		{
+			"name": "JS.yuha",
+			"path": "../JS.yuha"
+		},
+		{
+			"path": "../html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "personal web"
+	}
+}
+

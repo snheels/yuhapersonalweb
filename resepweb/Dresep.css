@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #857e7e;
+}
+
+nav a{
+    font-size: 18px;
+
+    font-weight: 400;
+    text-decoration: none;
+
+    color: #708090;
+}
+
+nav a.honer{
+    font-weight: bold;
+}
+
+nav ul{
+    padding-inline: 4rem;
+    display: flex;
+
+    gap: 2rem;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav{
+    background-color: #B2EAC2;
+    padding: 15px;
+
+    position: sticky;
+    top: 0;
+}
+
+.container-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbaar{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+}
+
+header{
+    display: inline;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: left;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(179, 143, 255, 0.952);
+    border-radius: px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: white;
+    line-height: 30px;
+    
+}
+
+.jumbroton{
+    font-size: medium;
+    padding: 60px;
+    text-align: center;
+    background-color:  rgba(179, 143, 255, 0.952);
+    color: #f4f4f4;
+}
+
+article {
+    background: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+p{
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #B2EAC2;
+}
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+.Socialicon {
+    display: flex;
+    justify-content: center;
+}
+.Socialicon a{
+    text-decoration:none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+.footerContainer a i{
+    font-size: 20px;
+    color: black;
+    opacity: 0.9;
+
+
+}
+.Socialicon a:hover{
+    background-color: #B2EAC2;
+    transition: 0.3s;
+}
+.Socialicon a:hover i{
+    color: white;
+    transition: 0.3s;
+}
+.footerNav {
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    color: #B2EAC2;
+}
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom {
+    background-color: rgba(179, 143, 255, 0.952);
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    
+}
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+
+}

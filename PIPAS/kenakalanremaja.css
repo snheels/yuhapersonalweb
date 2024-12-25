@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f9;
+    color: #333;
+    background-image: url(bg.jpg);
+}
+.palingatas {
+    background: #fff47ba5;
+    color: white;
+    padding: 30px 15px;
+}
+.atas {
+    background: #fff47ba5;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+    position: sticky;
+    top: 0%;
+}
+
+main {
+    padding: 40px;
+    justify-content: space-between; 
+}
+
+.head p, h4{
+    text-align: end;
+}
+
+.pendahulu {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(255, 234, 0);
+    color: white;
+    width: 70%;
+    display: flex;
+    gap: 4rem;
+}
+
+.penyebab {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(255, 234, 0);
+    color: white;
+    width: 70%;
+}
+
+
+.dampak {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(255, 234, 0);
+    color: white;
+    width: 70%;
+}
+
+.solusi {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(255, 234, 0);
+    color: white;
+    width: 70%;
+}
+
+.penutup {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(255, 234, 0);
+    color: white;
+    width: 70%;
+}
+
+.pinggir {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgb(255, 234, 0);
+    color: white;
+    width: 70%;
+}
+
+section ul, ol {
+    padding: 0; 
+    margin: 0; 
+    padding-inline: 2rem;
+}
+
+.pendahulu img,
+.penyebab img,
+.dampak img,
+.solusi img {
+    justify-content: center;
+    margin: 2rem 11rem;
+}
+
+h2, h3{
+    color: #fbda56;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.profile-card {
+    width: 40%;
+    padding: 3px; 
+    border-radius: 5px;
+    display: flex;
+}
+
+.pinggir {
+    display: flex;
+}
+.bawah {
+    background-color: #fbda56be;
+    color: #f4f4f9;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+    header {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* @media screen and (max-width: 1200px) {
+    main{
+        flex-direction: column;
+    }
+
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+    }
+@media screen and (max-width: 768px) {
+    nav ul {
+      justify-content: center;
+    }
+   
+    main aside {
+      align-self: stretch;
+    }
+  }
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+
+    aside {
+        width: 100%;    
+    } */
+
+/* html {
+    height: 100vh;
+  }
+  
+  div {
+    font-size: 1.6rem;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 20px;
+    width: 480px;
+  
+    display: none;
+    opacity: 0;
+    transition:
+      opacity 1s,
+      display 1s allow-discrete;
+    /* Equivalent to
+    transition: all 1s allow-discrete; */
+  
+  /* .showing {
+    opacity: 1;
+    display: block;
+  }
+  
+  @starting-style {
+    .showing {
+      opacity: 0;
+    }
+  } */ 
